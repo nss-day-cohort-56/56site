@@ -34,7 +34,7 @@ export const App = () => {
             <div className="student_name">{s.name}</div>
             <div className="student_funFact">{s.funFact}</div>
             <a href={`mailto:${s.email}`}>email me!</a><br/>
-            <a href={s.linkedinAccount} target="_blank">github</a><br/>
+            <a href={s.githubAccount} target="_blank">github</a><br/>
             <a href={s.linkedinAccount} target="_blank"> Linkedin Icon</a><br/>
             <div className="student_learnMoreAboutMeDescribeYourStrongSuits">{s.learnMoreAboutMeDescribeYourStrongSuits}</div>
             <div className="student_favoriteExperienceNssRelated">{s.favoriteExperienceNssRelated}</div>
