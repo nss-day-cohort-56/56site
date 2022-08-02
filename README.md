@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# Class Website Template Repo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple template for NSS students to use to create their class website. Employers are looking for a simple website where they can easily see each students' quick summary and links to Github, LinkedIn, and website. Your class website should look nice and professional, but no need to get fancy. ;)
 
-## Available Scripts
+## To get started on the class website
 
-In the project directory, you can run:
+1. Click on "Use This Template"
+2. In the owner dropdown, choose your cohort's organization 
+3. Name the repository after the organization, ie. if the cohort's organization is called nss-day-cohort-50 name the new repo `nss-day-cohort-50.github.io`
+4. Clone the repo locally to start working
+5. Update `data/cohort.json` with student information
+6. Update images with your class's photos
+7. Update `data/tech.json` with your cohort's tech stack
+8. Update NSS Eventbrite link to the specific link for your class's demo day. Reach out to Mandy if you need the link.
+9. Update the "Thanks" section in `index.html` to reflect who your cohort would like to thank.
+10. Change anything else with styling you'd like!
 
-### `npm start`
+This template was written using jQuery and Ajax, so the syntax might look a little different than what you're used to. If you have any questions about how to use the template or make changes to it, please reach out to an instructor and we'd be happy to help walk you through it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## To Deploy
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Deploy to Github Pages - no need for a custom domain.
 
-### `npm test`
+[Directions to deploy to Github Pages](https://www.codecademy.com/articles/f1-u3-github-pages)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Mandy will then take your Github Pages URL and set up a redirect link - that redirect link is what employers will get (example: [www.nashss.com/cohort28](www.nashss.com/cohort28)). 
