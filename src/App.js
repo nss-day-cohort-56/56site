@@ -57,8 +57,34 @@ export const App = () => {
       <h3>LINK TO DEMO DAY</h3>
     </section>
 
-    <section>
-      <h3>TECH STACK </h3>
+    <section id="techStack">
+      <h3>TECH STACK</h3>
+      <section>
+        <h4>We all learned the following</h4>
+        <div>
+          <p>HTML5</p>
+          <p>CSS3</p>
+          <p>JavaScript</p>
+          <p>Git</p>
+          <p>GitHub</p>
+          <p>ReactJS</p>
+          <p>React Hooks</p>
+          <p>Python</p>
+          <p>Django</p>
+          <p>SQL Server</p>
+          <p>VS Code</p>
+          <p>JSON Server</p>
+          <p>NPM</p>
+          <p>Postman</p>
+          <p>dbdiagram</p>
+          <p>Bulma</p>
+          <p>API</p>
+          <p>Wireframing</p>
+          <p>Team Collab</p>
+          <p>CRUD</p>
+          <p>Agile</p>
+        </div>
+      </section>
     </section>
 
     <section>
