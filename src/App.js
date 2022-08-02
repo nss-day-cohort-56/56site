@@ -1,17 +1,35 @@
 import { useEffect, useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
 import './App.css';
-import { cohort } from './data/cohort'
 
 export const App = () => {
 
-  let students = cohort
+  const [data, setData] = useState([]);
+  const getData = () => {
+    fetch('data.json'
+      , {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      }
+    )
+      .then(function (response) {
+        return response.json();
+      })
+      .then(function (myJson) {
+        setData(myJson)
+      });
+  }
+
+  useEffect(() => {
+    getData()
+  }, [])
 
   return <>
 
     <article>
       {
-        students.map(s => {
+        data?.cohort?.map(s => {
           return <>
             <div className="student_name">{s.name}</div>
             <div className="student_funFact">{s.funFact}</div>
@@ -27,5 +45,6 @@ export const App = () => {
       }
     </article>
   </>
+
 }
 
