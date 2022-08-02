@@ -33,9 +33,9 @@ export const App = () => {
           return <>
             <div className="student_name">{s.name}</div>
             <div className="student_funFact">{s.funFact}</div>
-            <div className="student_email">{s.email}</div>
-            <div className="student_githubAccount">{s.githubAccount}</div>
-            <a href={s.linkedinAccount} target="_blank"> Linkedin Icon</a>
+            <a href={`mailto:${s.email}`}>email me!</a><br/>
+            <a href={s.linkedinAccount} target="_blank">github</a><br/>
+            <a href={s.linkedinAccount} target="_blank"> Linkedin Icon</a><br/>
             <div className="student_learnMoreAboutMeDescribeYourStrongSuits">{s.learnMoreAboutMeDescribeYourStrongSuits}</div>
             <div className="student_favoriteExperienceNssRelated">{s.favoriteExperienceNssRelated}</div>
             <div className="student_whereAreYouLocatedCityState">{s.whereAreYouLocatedCityState}</div>
