@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom"
 import './App.css';
 
 export const App = () => {
@@ -27,6 +28,46 @@ export const App = () => {
 
   return <>
 
+    <ul className="navbar">
+
+      <li className="navbar__item navbar__home">
+        <a href="#home">
+          <h3>NSS Cohort 56</h3>
+        </a>
+
+      </li>
+
+
+      <div className="navbar__userinfo__div">
+
+        <li className="navbar__item">
+          <a href="#developers-section">
+            <h3>Developers</h3>
+          </a>
+
+        </li>
+
+        <li className="navbar__item">
+          <a href="#techStack">
+            <h3>Tech Stack</h3>
+          </a>
+        </li>
+
+        <li className="navbar__item">
+          <a href="#thanks">
+            <h3>Thanks</h3>
+          </a>
+        </li>
+
+        <li className="navbar__item">
+          <a href="#demo-section">
+            <h3>Join us for demo day</h3>
+          </a>
+        </li>
+
+      </div>
+    </ul>
+
     <header>
       <h1>COHORT 56 HEADER HERE MFS</h1>
     </header>
@@ -35,15 +76,15 @@ export const App = () => {
       <h3>Maybe a description or something here??</h3>
     </section>
 
-    <article>
+    <article id="developers-section">
       {
         data?.cohort?.map(s => {
           return <>
             <div className="student_name">{s.name}</div>
             <div className="student_funFact">{s.funFact}</div>
-            <a href={`mailto:${s.email}`}>email me!</a><br/>
-            <a href={s.githubAccount} target="_blank">github</a><br/>
-            <a href={s.linkedinAccount} target="_blank"> Linkedin Icon</a><br/>
+            <a href={`mailto:${s.email}`}>email me!</a><br />
+            <a href={s.githubAccount} target="_blank">github</a><br />
+            <a href={s.linkedinAccount} target="_blank"> Linkedin Icon</a><br />
             <div className="student_learnMoreAboutMeDescribeYourStrongSuits">{s.learnMoreAboutMeDescribeYourStrongSuits}</div>
             <div className="student_favoriteExperienceNssRelated">{s.favoriteExperienceNssRelated}</div>
             <div className="student_whereAreYouLocatedCityState">{s.whereAreYouLocatedCityState}</div>
@@ -53,7 +94,7 @@ export const App = () => {
       }
     </article>
 
-    <section>
+    <section id="developers-section">
       <h3>LINK TO DEMO DAY</h3>
     </section>
 
@@ -91,7 +132,7 @@ export const App = () => {
       <h3>WHERE WE'RE LOCATED</h3>
     </section>
 
-    <section>
+    <section id="thanks">
       <h3>THANK YOUS</h3>
     </section>
   </>

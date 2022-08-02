@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: top;
+
+  font-family: CinzelRegular;
+  /* border-bottom: solid #031926 2px; */
+  
+}
+
+.navbar__item {
+  list-style-type: none;
+}
+
+.navbar__userinfo__div{
+  display: flex;
+  width: 28rem;
+  justify-content: space-between;
+}
