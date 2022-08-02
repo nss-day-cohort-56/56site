@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import { Modal } from './components/Modal';
 
 export const App = () => {
 
   const [data, setData] = useState([]);
+  const [isOpen, setIsOpen] = useState(false)
+
   const getData = () => {
     fetch('data.json'
       , {
@@ -52,7 +55,12 @@ export const App = () => {
         })
       }
     </article>
-
+    <div>
+    <button className="primaryBtn" onClick={() => setIsOpen(true)}>
+        Open Modal
+      </button>
+      {isOpen && <Modal setIsOpen={setIsOpen} />}
+    </div>
     <section>
       <h3>LINK TO DEMO DAY</h3>
     </section>
