@@ -54,3 +54,23 @@
   transform: translateY(-5px);
   box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
 }
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: top;
+
+  font-family: CinzelRegular;
+  /* border-bottom: solid #031926 2px; */
+  
+}
+
+.navbar__item {
+  list-style-type: none;
+}
+
+.navbar__userinfo__div{
+  display: flex;
+  width: 28rem;
+  justify-content: space-between;
+}
