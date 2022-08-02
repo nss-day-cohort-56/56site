@@ -1,9 +1,8 @@
-{
-    "cohort": [
+export const cohort = [
         {
-            "id":1,
-            "personalPhoto": "https://drive.google.com/open?id=1mECgE2DI-JvajTMMVauvQ1OihRXGmM2T",
-            "name": "Michael O'Brien",
+            id:1,
+            personalPhoto: "https://drive.google.com/open?id=1mECgE2DI-JvajTMMVauvQ1OihRXGmM2T",
+            name: "Michael O'Brien",
             "funFact": "I've survived cancer twice",
             "email": "michael.obrien45@gmail.com",
             "githubAccount": "https://github.com/MOBrien-85",
@@ -12,7 +11,8 @@
             "favoriteMeme": "",
             "favoriteExperienceNssRelated": "Getting the chance to start developing an app that I've thought about for nearly 7 years.",
             "whereAreYouLocatedCityState": "Hendersonville, TN"
-        },
+        }
+        ,
         {
             "id": 2,
             "personalPhoto": "https://drive.google.com/open?id=14mPELsouWs-3n851H40Vx1KWqW_DWOZ0",
@@ -235,4 +235,4 @@
             "whereAreYouLocatedCityState": "Nashville, TN"
         }
     ]
-}
+
