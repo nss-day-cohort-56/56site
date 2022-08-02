@@ -27,6 +27,14 @@ export const App = () => {
 
   return <>
 
+    <header>
+      <h1>COHORT 56 HEADER HERE MFS</h1>
+    </header>
+
+    <section>
+      <h3>Maybe a description or something here??</h3>
+    </section>
+
     <article>
       {
         data?.cohort?.map(s => {
@@ -44,6 +52,22 @@ export const App = () => {
         })
       }
     </article>
+
+    <section>
+      <h3>LINK TO DEMO DAY</h3>
+    </section>
+
+    <section>
+      <h3>TECH STACK </h3>
+    </section>
+
+    <section>
+      <h3>WHERE WE'RE LOCATED</h3>
+    </section>
+
+    <section>
+      <h3>THANK YOUS</h3>
+    </section>
   </>
 
 }
