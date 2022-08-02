@@ -25,6 +25,8 @@ export const App = () => {
     getData()
   }, [])
 
+  let locationArray = []
+
   return <>
 
     <header>
@@ -59,6 +61,19 @@ export const App = () => {
 
     <section>
       <h3>TECH STACK </h3>
+      {
+        data?.cohort?.map(data => {
+            if(!(locationArray.includes(data.whereAreYouLocatedCityState))) {
+                locationArray.push(data.whereAreYouLocatedCityState)
+            }
+        })
+      }
+      {
+        locationArray.map(location => {
+          return <div>{location}</div>
+        }
+        )
+      }
     </section>
 
     <section>
@@ -67,6 +82,7 @@ export const App = () => {
 
     <section>
       <h3>THANK YOUS</h3>
+
     </section>
   </>
 
