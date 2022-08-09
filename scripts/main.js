@@ -46,13 +46,15 @@ function cohortMembers(list) {
     studentContact += `</div>`
 
     let studentInfo = `<div class="col-md-3 cohortMems">
-      <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>
-          <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+    <div class="img-student">
+    <img class="card-img-top" src="images/classmates/${item.proImg}" alt="${item.firstName} ${item.lastName}" data-toggle="modal" data-target="#cohortMember${item.id}" style="cursor:pointer;">
+    </div>
+    <h4 class="card-title title-font">${item.firstName} ${item.lastName}</h4>
           <div class="card-body">`
     studentInfo += studentContact
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
-      studentInfo += `<p class="card-text">Fun Fact: ${item.reelThemIn}</p>`
+      studentInfo += `<p class="card-text">Fun Fact: ${item.reelThemIn}</p></div>`
     }
 
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
