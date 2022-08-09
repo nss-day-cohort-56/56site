@@ -30,7 +30,7 @@
         },
         {
             "id": 3,
-            "proImg": "Generic.jpg",
+            "proImg": "Tiana.jpg",
             "firstName": "Tiana",
             "lastName": "Robinson",
             "reelThemIn": "Ada Lovelace (a woman) was considered to be the first programer after she published the first algorithm ever specifically tailored for implementation on a computer.",
@@ -86,7 +86,7 @@
         },
         {
             "id": 7,
-            "proImg": "Generic.jpg",
+            "proImg": "Dan.jpg",
             "firstName": "Dan",
             "lastName": "Purdon",
             "reelThemIn": "I once got to be an FBI agent on Blacklist",
@@ -107,7 +107,7 @@
             "email": "samantha.ann.malorni@gmail.com",
             "github": "https://github.com/smalorni",
             "linkedIn": "https://www.linkedin.com/in/samantha-malorni/",
-            "bio": "Prior to web development, my background was in disability advocacy and state law enforcement where I gained 8 years of experience in data analysis and investigations. During my time as a disability advocate, I was exposed to accessibility. I saw how my clients benefited from accessible technology and I became curious about the development process behind it. Michigan State Police also gave me an opportunity to perform user interface testing to find and report bugs to programmers. These experiences solidified the decision to pursue web development. I dabbled in coding and UX/UI for a year then attended Nashville Software School to expand my knowledge even further. My goal is to be a front-end developer who would love to join a team that shares a common goal of creating user-friendly, accessible and inclusive websites and applications.",
+            "bio": "Prior to software development, my background was mostly in disability advocacy and state law enforcement. During my time as a disability advocate for a non-profit organization, I was exposed to accessibility. I saw how my clients benefited from accessible technology that made their lives easier. It piqued my interest about the development process behind it which motivated me to learn more. I dabbled in coding and UX/UI for a year then attended Nashville Software School to expand my knowledge even further. My goal after NSS is to be a front-end web developer hoping to join a collaborative team that shares my mission of creating user-friendly, accessible and inclusive websites and applications. It’s important to me that we envision the needs of all users and solve challenging barriers to improve the technological experience for a society that encompasses all abilities and disabilities equally.",
             "funImg": "SamanthaMeme.jpg",
             "favExp": "Building the Capstone Projects because I was able to create something that I am passionate about and incorporate what I've learned. ",
             "location": "Lansing, MI"
@@ -131,18 +131,18 @@
             "proImg": "Caleb.jpg",
             "firstName": "Caleb",
             "lastName": "Gore",
-            "reelThemIn": "THIS IS DUMMY DATA I DIDN'T HAVE TIME TO THINK OF ANYTHING I'LL UPDATE IT LATER",
+            "reelThemIn": "I've flown all the way around the world from east to west.",
             "email": "cgore2001@gmail.com",
             "github": "github.com/caleb-gore",
             "linkedIn": "linkedin.com/caleb-gore",
-            "bio": "I am a software engineer who recently transitioned from a career as a musician and educator. With a longstanding interest in technology and design, as well as continued learning and problem solving, I decided to pursue a career that I felt would be a better fit for personal and educational growth.",
+            "bio": "Having lived and worked in several countries, I've developed a strong cultural sensitivity and appreciation and I pride myself on my ability to adapt to new people, places, experiences, and challenges.",
             "funImg": "CalebMeme.jpg",
-            "favExp": "Algorithm Challenges",
+            "favExp": "I really enjoyed the algorithm challenges each week.",
             "location": "Nashville, TN"
         },
         {
             "id": 11,
-            "proImg": "Generic.jpg",
+            "proImg": "Stacy.jpg",
             "firstName": "Stacy",
             "lastName": "Lofton",
             "reelThemIn": "There is a book called \"Stacy's Miracle\" out there, of which, I am the subject of.",
@@ -198,7 +198,7 @@
         },
         {
             "id": 15,
-            "proImg": "Generic.jpg",
+            "proImg": "Camille.jpg",
             "firstName": "Camille",
             "lastName": "Faulkner",
             "reelThemIn": "Ask me about my summers at Circus Camp",
@@ -240,7 +240,7 @@
         },
         {
             "id": 18,
-            "proImg": "Generic.jpg",
+            "proImg": "Claire.jpg",
             "firstName": "Claire",
             "lastName": "Morgan-Sanders",
             "reelThemIn": "The first coding language I learned was Java when I was in high school.",
@@ -251,6 +251,20 @@
             "funImg": "ClaireMeme.jpg",
             "favExp": "All of the group projects that gave us hands on experience",
             "location": "Nashville, TN"
+        },
+        {
+            "id": 19,
+            "proImg": "Connor.jpg",
+            "firstName": "Connor",
+            "lastName": "Lopshire",
+            "reelThemIn": "My wife and I were born the same exact day",
+            "email": "connormlopshire@gmail.com",
+            "github": "https://github.com/Connor-Lopshire",
+            "linkedIn": "https://www.linkedin.com/in/connor-lopshire-102887238/",
+            "bio": "Professional painter turned software developer. I am a fast and passionate learner. I became a dedicated owner of Precision Paint Company in January of 2020. After years of hard physical labor, I decided that a career shift was necessary. All my research pointed towards software development, as many of the skills overlap with my background in painting such as creativity, problem-solving, teamwork, and clear communication. Both emphasize good design principles and delivering a quality end result.",
+            "funImg": "ConnorMeme.jpg",
+            "favExp": "a quote from Coach Steve 'Do not say it should work when it does not work. It is a computer, if it does not work then it should not. You can say that your logic is sound, but not that it should work.'",
+            "location": "Clarksville, TN"
         }
     ]
 }

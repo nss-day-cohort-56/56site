@@ -12,7 +12,7 @@ $.ajax({
   });
 
 function cohortMembers(list) {
-  let data = list.cohort;
+  let data = list.cohort.sort((a, b) => { return a.lastName.localeCompare(b.lastName) })
   data.forEach(function (item) {
     let studentContact = `<div class="studentContact">`
     //if student doesn't have a portfolio site then don't display the icon
@@ -115,12 +115,43 @@ $.ajax({
   });
 
 function techs(list) {
-  let data = list.techs;
-  data.forEach(function (item) {
-    document.getElementById("techs").innerHTML +=
-      `<div class="col-sm-2 technologies">
-         <center><a href="${item.link}" target="_blank"><img class="techs" src="images/techs/${item.image}" alt="${item.name}" data-toggle="tooltip" data-placement="top" title="${item.name}"></a><br>
-         </center>
-      </div>`;
-  });
+  // let data = list.techs;
+  // data.forEach(function (item) {
+  return document.getElementById("techs").innerHTML +=
+    `<div class="col-sm-2 technologies">
+        <ul>
+          <li>
+            <p>Python</p>
+          </li>
+          <li>
+          <p>Django</p>
+        </li>
+        <li>
+        <p>SQL</p>
+      </li>
+      <li>
+      <p>ORM</p>
+    </li>
+        <li>
+        <p>JavaScript</p>
+      </li>
+      <li>
+      <p>React</p>
+    </li>
+    <li>
+    <p>Git</p>
+  </li>
+  <li>
+  <p>Github</p>
+</li>
+    <li>
+    <p>CSS</p>
+  </li>
+  <li>
+  <p>HTML</p>
+</li>
+        </ul>
+      </div>`
 };
+
+
