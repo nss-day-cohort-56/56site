@@ -5,9 +5,10 @@ p {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/background.jpg") fixed no-repeat;
+    /* background: url("../images/background.jpg") fixed no-repeat; */
     background-size: 100%;
-    background-color: black;
+    background-color: #231F20;
+
 }
 
 blockquote{
@@ -17,21 +18,21 @@ blockquote{
     padding: 2em;
 }
 h4{
-    text-decoration: underline #238193;
-}
-a{
-    text-decoration: underline #238193;
+    text-decoration: underline #7EBDC2;
 }
 
 button{
     margin-bottom: 10px;
+}
+.text-center{
+    color:#EFE6DD
 }
 .navbar{
     background-color: rgb(55, 55, 56);
     padding: 20px;
 }
 .navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
-    background: white !important;
+    background: #EFE6DD !important;
 }
 .navbar-brand{
     display: flex;
@@ -42,7 +43,7 @@ button{
 
 #cohort22{
     display: inline-block;
-    color: #238193;
+    color: #BB4430;
 }
 
 #jumbheader{
@@ -62,10 +63,12 @@ button{
 
 .card-text{
     text-align: center;
+    position: relative;
 }
 .title-font {
     text-align: center;
     vertical-align: middle;
+    object-position: bottom;
 }
 
 .logo{
@@ -108,9 +111,9 @@ main {
     margin: 25px;
     border: 1px solid lightgray;
     border-radius:10px;
-    box-shadow: 2px 2px 2px lightgray;
+    box-shadow: 2px 2px 5px #c15644;
     margin-bottom: 25px;
-    background: white;
+    background: #EFE6DD;
 }
 
 .col-sm-2.technologies{
@@ -121,7 +124,8 @@ main {
 
 .technos, .words{
     margin-top: -55px;
-    background: white;
+    background: #EFE6DD;
+    box-shadow: 2px 2px 5px #c15644;
     padding:20px;
     border-radius: 20px;
 }
@@ -178,7 +182,7 @@ main {
   }
 
   .contactIcons{
-      color: #238193;
+      color:  #BB4430;
   }
   .contactIcons:hover{
       transform: scale(1.2);
@@ -187,7 +191,7 @@ main {
   .modal-header{
     justify-content: center;
     background-color: lightgray!important;
-    color: #238193;
+    color: #7EBDC2;
   }
 
   .modal-body img{
@@ -207,26 +211,30 @@ main {
     background-color: #238193!important;
     color: white;
 }
-
+.logo{
+    border: 1px;
+    border-style: none;
+    border-radius: 40%;
+}
 #demo-date {
     text-align: center;
 }
 
 #demo-date a {
-    color: #238193!important;
+    color: #7EBDC2!important;
+    text-decoration: underline #BB4430;
 }
-
 button{
     cursor: pointer;
 }
 .btn-outline-primary{
-    color: #238193!important;
-    border-color: #238193!important;
+    color: #BB4430!important;
+    border-color: #BB4430!important;
 }
 
 .btn-outline-primary:hover{
     color: white!important;
-    background-color: #238193!important;
+    background-color: #BB4430!important;
 }
 
 /* adjusts size of contact icons depending on size of card */

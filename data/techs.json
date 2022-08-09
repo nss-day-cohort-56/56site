@@ -7,6 +7,18 @@
             "link": "https://www.javascript.com/"
         },
         {
+            "id": 2,
+            "name": "React",
+            "image": "react.png",
+            "link": "https://www.reactjs.org/"
+        },
+        {
+            "id": 3,
+            "name": "Python",
+            "image": "python.png",
+            "link": "https://www.python.org/"
+        },
+        {
             "id": 4,
             "name": "Git",
             "image": "git.png",
@@ -17,6 +29,12 @@
             "name": "Github",
             "image": "github.png",
             "link": "https://github.com/"
+        },
+        {
+            "id": 6,
+            "name": "Django",
+            "image": "django.png",
+            "link": "https://www.djangoproject.com/"
         },
         {
             "id": 7,
@@ -31,10 +49,22 @@
             "link": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
         },
         {
+            "id": 9,
+            "name": "Postman",
+            "image": "postman.png",
+            "link": "https://www.postman.com/"
+        },
+        {
             "id": 10,
             "name": "Bootstrap",
             "image": "bootstrap.png",
             "link": "https://getbootstrap.com/"
+        },
+        {
+            "id": 11,
+            "name": "oh my zsh",
+            "image": "zsh.png",
+            "link": "https://ohmyz.sh/"
         },
         {
             "id": 14,
@@ -48,17 +78,19 @@
             "image": "sqlite.png",
             "link": "https://www.sqlite.org/"
         },
-        {
-            "id": 16,
-            "name": "SQL Server",
-            "image": "sqlserver.png",
-            "link": "https://www.microsoft.com/en-us/sql-server/sql-server-2017"
-        },
+       
         {
             "id": 17,
             "name": "Visual Studio Code",
             "image": "vsc.png",
             "link": "https://code.visualstudio.com/"
+        },
+        {
+            "id": 20,
+            "name": "Visual Studio",
+            "image": "VisualStudio.png",
+            "link": "https://www.visualstudio.com/vs/"
         }
+
     ]
 }
