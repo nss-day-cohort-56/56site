@@ -27,6 +27,9 @@ button{
 .text-center{
     color:#EFE6DD
 }
+.navbar1{
+    padding-top: 55px;
+}
 .navbar{
     background-color: rgb(55, 55, 56);
     padding: 20px;
@@ -38,7 +41,7 @@ button{
     display: flex;
 }
 .nav-spacing {
-  margin-right: 2em;
+    margin-right: 2em;
 }
 
 #cohort22{
@@ -47,8 +50,8 @@ button{
 }
 
 #jumbheader{
-    box-shadow: 2px 2px 2px rgb(167, 166, 166);
-    background-color: #238193!important;
+    box-shadow: 2px 2px 2px #EFE6DD;
+    background-color: #7EBDC2!important;
     color: lightgray;
 
 }
@@ -66,11 +69,15 @@ button{
     position: relative;
 }
 .title-font {
+    padding-bottom: 8px;
     text-align: center;
     vertical-align: middle;
     object-position: bottom;
 }
-
+.title-font1{
+    padding-bottom: 25px;
+    color: #231F20;
+}
 .logo{
     height: 50px;
 }
@@ -78,12 +85,12 @@ button{
 
 .jumbotron.jumbotron-fluid{
     background: none;
-   }
+}
 .jumbotron.jumbotron-fluid img{
     background: none;
     width:100%;
     margin-top: -80px;
-   }
+}
 
 main {
     margin-bottom: 20px;
@@ -91,9 +98,11 @@ main {
     width: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
-  }
+}
 
 .row{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -133,7 +142,7 @@ main {
 .techs{
     width: 70px;
     margin: 20px 0px;
-  }
+}
 
 .words{
     padding:50px;
@@ -142,7 +151,7 @@ main {
 .no-gutters {
     margin-right: 0;
     margin-left: 0;
-  }
+}
 
 .img-student{
     display: flex;
@@ -158,7 +167,7 @@ main {
     object-fit: cover;
     object-position: top;
     border-radius: 10px;
-  }
+}
 
 .card-body{
     position: relative;
@@ -167,48 +176,48 @@ main {
 [class*="col-"] {
     padding-right: 0;
     padding-left: 0;
-  }
+}
 
 .modal-body{
     display: block;
-  }
+}
 
-  .studentContact{
-      text-align: center;
-      display: flex;
-      justify-content: space-evenly;
-      -webkit-justify-content: space-evenly;
-      margin-bottom: .75rem;
-  }
+.studentContact{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    -webkit-justify-content: space-evenly;
+    margin-bottom: .75rem;
+}
 
-  .contactIcons{
-      color:  #BB4430;
-  }
-  .contactIcons:hover{
-      transform: scale(1.2);
-  }
+.contactIcons{
+    color:  #BB4430;
+}
+.contactIcons:hover{
+    transform: scale(1.2);
+}
 
-  .modal-header{
+.modal-header{
     justify-content: center;
-    background-color: lightgray!important;
-    color: #7EBDC2;
-  }
+    background-color: #FED766!important;
+    color: #231F20;
+}
 
-  .modal-body img{
+.modal-body img{
     width: 50%;
     height: 50%;
     box-shadow: 3px 3px 5px #cacaca;
     border-radius: 10px;
-  }
+}
 
-  .backButton{
-      margin-bottom: 1.5rem;
-  }
+.backButton{
+    margin-bottom: 1.5rem;
+}
 
 .navbar.navbar-light.bg-light.footer{
     margin-top:10px;
     font-size: 1em;
-    background-color: #238193!important;
+    background-color: #7EBDC2!important;
     color: white;
 }
 .logo{
@@ -221,7 +230,7 @@ main {
 }
 
 #demo-date a {
-    color: #7EBDC2!important;
+    color: #FED766!important;
     text-decoration: underline #BB4430;
 }
 button{
@@ -241,13 +250,13 @@ button{
 @media (min-width: 992px) and (max-width: 1200px){
     .fa-3x{
         font-size: 2.5em!important;
-      }
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
     .fa-3x{
         font-size: 2em!important;
-      }    
+    }    
 }
 
 
@@ -259,7 +268,7 @@ button{
     .jumbotron.jumbotron-fluid img{
         background: white;
         margin-top:30px;
-       }
+    }
        .jumbotron.jumbotron-fluid.sm-width{
         width: 100%;
     }
