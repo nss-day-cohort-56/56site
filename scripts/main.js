@@ -54,7 +54,7 @@ function cohortMembers(list) {
     studentInfo += studentContact
     //if student didn't provide a reelthemin quote then nothing is displayed
     if (item.reelThemIn != null) {
-      studentInfo += `<p class="card-text">Fun Fact: ${item.reelThemIn}</p></div>`
+      studentInfo += `<p class="card-text"><b>Fun Fact:</b> ${item.reelThemIn}</p></div>`
     }
 
     //if a student doesn't have a bio, then the learn more button doesn't appear and a modal isn't created
@@ -86,9 +86,9 @@ function cohortMembers(list) {
 
 
       studentInfo += `
-    Located: ${item.location}<br><br>
-    About Me: ${item.bio} <br><br>
-    Favorite NSS Experience: ${item.favExp}
+    <b>Located:</b> ${item.location}<br><br>
+    <b>About Me:</b> ${item.bio} <br><br>
+    <b>Favorite NSS Experience:</b> ${item.favExp}
     </div>
     <center><button type="button" data-dismiss="modal" class="backButton btn btn-outline-primary title-font bottom" aria-label="Close">
       Back
